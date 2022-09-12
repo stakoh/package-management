@@ -22,7 +22,7 @@
 echo delete the failed version of tomcat
 sudo rm -rf /opt/tomcat9
 echo assign a hostname to your server 
-sudo hostname tomcat7
+sudo hostname tomcat1
 # install Java JDK 1.8+ as a pre-requisit for tomcat to run.
 cd /opt 
 sudo yum install git wget -y
